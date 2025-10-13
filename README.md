@@ -24,31 +24,18 @@ Este projeto valida funcionalidades do site da Nexdom e realiza um **CRUD comple
 
  qa-nexdom-challenge/
 │
-
 ├── cypress/
-
 │ ├── e2e/
-
 │ │ ├── frontend/
-
 │ │ │ └── nexdom_frontend.cy.js # Testes de Front-End
-
 │ │ └── api/
-
 │ │ └── github_api.cy.js # Testes de Back-End (API GitHub)
-
 │ ├── fixtures/
-
 │ ├── support/
-
 │ └── screenshots/ # Evidências de execução
-
 │
-
 ├── cypress.env.json # Variáveis de ambiente (GitHub user, token, repo)
-
 ├── package.json
-
 └── README.md
 
 
@@ -110,6 +97,3 @@ Validação da exclusão
 Ajustes de visibilidade no menu da Nexdom (elementos com display: none)
 
 Autenticação da API GitHub exigindo permissões específicas de token
-
-
-Controle de variáveis entre testes (issueNumber) para manter a persistência do fluxo
